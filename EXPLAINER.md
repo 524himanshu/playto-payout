@@ -127,4 +127,4 @@ Wrapped the entire check-and-create in `transaction.atomic()` with `select_for_u
 
 ## AI Usage
 
-Built with assistance from Claude. Every architectural decision — ledger model, row-level locking, idempotency via DB constraints, atomic state transitions — was understood, verified, and intentionally chosen. The AI audit section above is a real example of catching and correcting subtly wrong generated code.
+Built with assistance from Claude. Every architectural decision — ledger model, row-level locking, idempotency via DB constraints, atomic state transitions was understood, verified, and intentionally chosen. The AI audit section above is a real example of catching and correcting subtly wrong generated code.
